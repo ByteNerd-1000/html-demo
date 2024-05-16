@@ -1,0 +1,393 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Navigationbar-css */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    box-shadow: 1px 0px 10px rgba( 0,0,0,0.12);
+    background-color: white;
+    position:fixed;
+    top: 0;
+    width: 100vw;
+    
+}
+.nav-left{
+    margin-left: 135px;
+}
+#list{
+    margin: 23px;
+    color: rgb(107, 102, 102);
+    cursor: pointer;
+    font-size: 14px;
+}
+.list-items{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-right{
+    justify-content: end;
+    justify-content: space-between;
+    margin-right: 90px;
+}
+
+/* first-panel */
+
+.first-pic,.landing-txt,.text1,.sign-up{
+    display: flex;
+    justify-content: center;
+}
+.first-pic{
+    margin-top: 150px;
+}
+.sign-up{
+    button{
+        margin-top: 50px;
+        color: white;
+        background-color: rgb(54, 134, 220);
+        border: none;
+        border-radius: 3px;
+        padding: 12px 36px 12px 36px;
+        font-size: 1.2em;
+        cursor: pointer;
+        transition: 0.5s;
+        box-shadow: 1px 3px 10px rgba(0,0,0 ,    0.45);
+    }
+    button:hover{
+        background-color: rgb(104, 162, 224);
+    }
+    button:active{
+        opacity: 0.5;
+    }
+}
+.text1{
+    margin-top: 70px;
+    font-size: 2.6em;
+    color: rgb(79, 78, 78);
+}
+.text2{
+    margin-top: 20px;
+    color: rgb(105, 103, 103);
+    font-size: 1.2em;
+}
+/* second-panel */
+.second-panel{
+    margin-top: 225px;
+    display: flex;
+}
+
+.left-side{
+    margin-left: 130px;
+}
+.right-side{
+    
+    margin-left: 150px;
+}
+.broker-txt{
+    font-size: 2em;
+    margin-bottom:25px;
+    color: rgb(79, 78, 78);
+}
+.broker-desc{
+    width: 550px;
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: rgb(105, 103, 103);
+}
+#left-features{
+    margin-left: 15px;
+}
+#right-features{
+    margin-left: 80px;
+}
+#bullets{
+    margin-top: 10px;
+}
+.features{
+    display: flex;
+    color: rgb(105, 103, 103);
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+/* third-panel */
+.third-panel{
+    display: flex;
+    margin-top: 135px;
+}
+.links{
+    display: flex;
+}
+.left-insurance{
+    margin-left: 125px;
+}
+.right-insurance{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#highlight{
+    color: rgb(23, 106, 195);
+    cursor: pointer;
+}
+#heading{
+    font-weight: 600px;
+    font-size: 33px;
+    margin-bottom: 50px;
+    color: rgb(62, 60, 60);
+}
+#sub-head{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 19px;
+    font-weight: 500px;
+    color: rgb(69, 64, 64);
+}
+#sub-desc{
+    font-size: 15px;
+    font-weight: 500px;
+    width: 100%;
+    line-height: 28px;
+    color: rgb(105, 103, 103);
+}
+#try{
+    color: rgb(23, 106, 195);
+    margin-left: 40px;
+    cursor: pointer;
+}
+#demo{
+    color: rgb(23, 106, 195);
+    margin-left: 125px;
+    cursor: pointer;
+}
+#demo:hover,#try:hover{
+    color:rgb(104, 162, 224);
+}
+/* fourth-panel */
+.fourth-panel{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 165px;
+}
+
+#price-desc{
+    width: 500px;
+}
+.value{
+    display: flex;
+    margin-left: 80px;
+
+}
+#price-heading{
+    font-weight: 600px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgb(62, 60, 60);
+}
+#price-desc{
+    font-size: 15px;
+    font-weight: 500px;
+    width: 430px;
+    line-height: 28px;
+    color: rgb(105, 103, 103);
+    margin-bottom: 20px ;
+}
+#price{
+    color: rgb(23, 106, 195);
+    cursor: pointer;
+}
+#price:hover{
+    color:rgb(104, 162, 224);
+}
+.right-val,.left-val{
+    border: 1px solid rgb(215, 212, 212);
+    width: 230px;
+}
+#number1{
+    color: rgb(62, 60, 60);
+    font-size: 38px;
+    margin-top: 20px;
+    font-weight: 500px;
+    text-align: center;
+    margin-right: 20px;
+}
+#number2{
+    font-size: 38px;
+    margin-top: 20px;
+    font-weight: 500px;
+    text-align: center;
+    color: rgb(62, 60, 60);
+}
+.equity{
+    /* width: 220px; */
+    color: rgb(105, 103, 103);
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.intra{
+    color: rgb(105, 103, 103);
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+/* fifth-panel */
+.fifth-panel{
+    display: flex;
+    margin-top: 135px;
+}
+.varsity{
+    color: rgb(23, 106, 195);
+    cursor: pointer;
+}
+.varsity:hover{
+    color:rgb(104, 162, 224);
+}
+.trading-qna{
+    color: rgb(23, 106, 195);
+    cursor: pointer;    
+}
+#varsi{
+    margin-top: 23px;
+}
+.left-image{
+    margin-left: 125px;
+}
+.right-education{
+    margin-left: 140px;
+    margin-right: 100px;
+}
+.trading-qna:hover{
+    color:rgb(104, 162, 224);
+}
+.market-heading{
+    font-size: 23px;
+    color: rgb(62, 60, 60);
+}
+.market-desc,.qna{
+    margin-top: 25px;
+    color: rgb(105, 103, 103);
+    line-height: 28px;
+    width: 580px;
+}
+/* sixth-panel */
+.sixth-panel{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.sign-up-button{
+    display: flex;
+    justify-content: center;
+    button{
+        margin-top: 40px;
+        color: white;
+        background-color: rgb(54, 134, 220);
+        border: none;
+        border-radius: 3px;
+        padding: 12px 36px 12px 36px;
+        font-size: 1.2em;
+        cursor: pointer;
+        transition: 0.5s;
+        box-shadow: 1px 3px 10px rgba(0,0,0 ,    0.45);
+    }
+}
+.sign-up-button:hover{
+    color:rgb(104, 162, 224);
+}
+.open-account{
+    display: flex;
+    justify-content: center;
+    font-size: 29px;
+    margin-top: 40px;
+    color: rgb(49, 47, 47);
+}
+.account-info{
+    display: flex;
+    justify-content: center;
+    color: rgb(105, 103, 103);
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+/* footer-css */
+.foot{
+    border-top: 1px solid #dbdbde;
+    background-color: #fafafb;
+}
+.logo-items{
+    display: flex;
+    list-style: none;
+    margin-top: 28px;
+    cursor: pointer;
+}
+#pics{
+    width:26px;
+}
+#logos{
+    margin: 8px;
+    cursor: pointer;
+}
+.credentials{
+    font-size: 13px;
+    color: rgb(107, 102, 102);
+    margin-left: 100px;
+}
+#logo-pic{
+    margin-left: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+#txt{
+    margin-left: 10px;
+}
+.footer-div{
+    display: flex;
+    
+}
+.credentials,.company,.account,.support{
+    margin-top: 40px;
+}
+.account,.support{
+    margin-left: 100px;
+}
+.company{
+    margin-left: 80px;
+}
+#titles{
+    font-size: 18px;
+    color: rgb(52, 51, 51);
+    margin-left: 12px;
+    cursor: pointer;
+}
+.company-item{
+    list-style: none;
+    margin-top: 25px;
+    font-size: 13px;
+    color: rgb(107, 102, 102);
+}
+.company-item {
+    li{
+        margin: 14px;
+        cursor: pointer;
+    }
+}
+.terms{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 22px;
+    color: rgb(151, 145, 145);
+}
